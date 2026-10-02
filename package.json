@@ -3,8 +3,8 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "vp build",
-        "build:ssr": "vp build && vp build --ssr",
+        "build": "node -e \"console.log('Blade-only application: no frontend build is required.')\"",
+        "build:ssr": "npm run build",
         "dev": "vp dev",
         "check": "vp check",
         "check:fix": "vp check --fix",
